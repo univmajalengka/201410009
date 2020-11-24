@@ -1,10 +1,11 @@
-# sertakan < iostream >
+#  sertakan < iostream >
 menggunakan  namespace  std ;
 
 int  main ()
 {
-	cout << " Pilih Menu: " << endl;
-	cout << " 1. Pertambahan " << endl;
+	cout << " \tKALKULATOR SEDERHANA" << endl;
+	cout << " silahkan pakai dengan baik dan benar" << endl;
+        cout << " 1. Pertambahan " << end ;
 	cout << " 2. Pengurangan " << endl;
 	cout << " 3. Perkalian " << endl;
 	cout << " 4. Pembagian " << endl;
