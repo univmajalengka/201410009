@@ -13,17 +13,31 @@ int  main ()
 	int a, b, c, menu;
 	float d, e, f;
 	cin >> menu;
-	jika (menu == 1 ) {
+	jika 
+         If(menu == 1 ) {
 		cin >> a;
 		cin >> b;
 		c = a + b;
 		cout << c;
-	} lain  jika (menu == 2 ) {
+	} else if(menu == 2 ) {
 		cin >> a;
 		cin >> b;
 		c = ab;
 		cout << c;
-	} lain {
+	
+        else if(menu == 3 ) {
+		cin >> a;
+		cin >> b;
+		c = ab;
+	      cout << c;
+
+       else if(menu == 4 ) {
+		cin >> d;
+		cin >> e;
+		c = ab;
+		cout << f;
+        
+        } lain {
 		cout << " Menu Tidak Ada " ;
 	}
 	return  false ;
